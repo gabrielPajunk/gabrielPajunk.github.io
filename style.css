@@ -1,0 +1,107 @@
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #404040 ;
+  margin-left: 27%;
+  margin-right: 24%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+em{
+  margin-left: 27%;
+
+}
+
+h2{
+  font-family: 'Josefin Sans', serif;
+  margin-left: 27%;
+  margin-right: 24%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.quotes{
+  font-family: 'Abril Fatface', cursive; 
+  font-size: 46.5px;
+  padding: 50px; 
+  background: #404040;   
+  color: white;
+  max-width: 15em;
+  min-width: 15em;
+  display: flex;
+  position: relative;
+  left: 20.7%;
+
+}
+blockquote::before {
+  position: absolute;
+  content: "“";
+  top: -35px;
+  left: 0px;
+  font-size: 3em;
+  margin-top:  0px;
+}
+
+li{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 28%;
+  margin-right: 25%;
+  margin-bottom: 5px;
+  list-style-type: square;
+}
+
+.titul{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+img{
+  width: 100%;
+  margin-bottom:20px;
+
+}
+
+.nazov{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  position: absolute;
+  bottom:60px;
+  left: 27%;
+
+}
+#zaciatokNazov{
+  font-size: 35px;
+  position: absolute;
+  bottom: 75px;
+}
+
+.obrazok{
+  width: 85%; 
+}
+
+.capsNazov{
+  text-transform: uppercase; 
+}
+
+figure{
+  font-family: 'Josefin Sans', serif;
+  margin-left: 27%;
+  margin-right: 24%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+figcaption{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 3px;
+}
+#personalInterestLine{
+  border-bottom: solid 4px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
